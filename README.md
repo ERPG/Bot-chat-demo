@@ -1,4 +1,4 @@
-![React](https://www.split.io/wp-content/uploads/2020/03/react-logo.png)
+![React](https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png)
 
 # Getting Started with Bot-demo
 
