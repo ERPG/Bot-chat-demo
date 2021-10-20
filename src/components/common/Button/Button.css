@@ -1,0 +1,20 @@
+@import '../../Chat//InputWrapper/InputWrapper.css';
+
+.landbot-input-send {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--orange);
+  background-color: transparent;
+  border: 0;
+}
+
+.landbot-input-send:hover {
+  color: var(--orange);
+}
+
+.button[disabled] {
+  background-color: transparent;
+  border-color: transparent;
+}

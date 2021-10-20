@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat component Should render component without errors 1`] = `
+<div>
+  <div
+    data-landbot="chat-container"
+  >
+    <div>
+      <div
+        class="landbot-header"
+        data-landbot="header-container"
+      >
+        <h1
+          class="subtitle"
+          data-landbot="header-subtitle"
+        >
+          Landbot
+        </h1>
+      </div>
+    </div>
+    <div
+      class="landbot-messages-container"
+      data-landbot="message-container"
+      id="landbot-messages-container"
+    />
+    <div
+      class="landbot-input-container"
+      data-landbot="input-container"
+    >
+      <div
+        class="field"
+      >
+        <div
+          class="control"
+        >
+          <input
+            class="landbot-input"
+            data-landbot="chat-input"
+            placeholder="Type here..."
+            type="text"
+            value=""
+          />
+          <button
+            class="button landbot-input-send"
+            data-landbot="send-button"
+            disabled=""
+          >
+            <span
+              class="icon is-large"
+            >
+              <i
+                class="fas fa-paper-plane fa-lg"
+              />
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

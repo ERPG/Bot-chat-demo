@@ -1,0 +1,43 @@
+@import '../../Chat/InputWrapper/InputWrapper.css';
+
+.landbot-message {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.landbot-message + .landbot-message {
+  margin-top: 12px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.landbot-message[data-author="bot"] + .landbot-message[data-author="bot"],
+.landbot-message[data-author="user"] + .landbot-message[data-author="user"] {
+  margin-top: 3px;
+}
+
+.landbot-message[data-author="user"] {
+  justify-content: flex-end;
+}
+
+.landbot-message-avatar {
+  display: none;
+}
+
+.landbot-message-content {
+  color: var(--light);
+  padding: 8px 15px;
+  border-radius: 18px;
+  display: inline-block;
+  flex-grow: 0;
+}
+
+.landbot-message[data-author="bot"] .landbot-message-content {
+  background-color: var(--dark-blue-2);
+  border-bottom-left-radius: 2px;
+}
+
+.landbot-message[data-author="user"] .landbot-message-content {
+  background-color: var(--orange);
+  border-bottom-right-radius: 2px;
+}

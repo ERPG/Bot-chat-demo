@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Should render component without errors 1`] = `
+<div>
+  <div>
+    <div
+      class="landbot-header"
+      data-landbot="header-container"
+    >
+      <h1
+        class="subtitle"
+        data-landbot="header-subtitle"
+      >
+        Landbot
+      </h1>
+    </div>
+  </div>
+</div>
+`;

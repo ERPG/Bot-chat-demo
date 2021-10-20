@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesWrapper component Should render component without errors 1`] = `
+<div>
+  <div
+    class="landbot-messages-container"
+    data-landbot="message-container"
+    id="landbot-messages-container"
+  />
+</div>
+`;

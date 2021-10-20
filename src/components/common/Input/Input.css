@@ -1,0 +1,11 @@
+@import '../../Chat//InputWrapper/InputWrapper.css';
+
+.landbot-input {
+  width: 100%;
+  color: var(--light);
+  padding: 20px 55px 20px 25px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}

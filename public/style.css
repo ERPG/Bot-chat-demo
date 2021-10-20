@@ -1,0 +1,17 @@
+:root {
+  --light: rgb(255, 255, 255);
+  --dark: rgb(37, 44, 54);
+  --dark-blue: rgb(44, 47, 64);
+  --dark-blue-2: rgb(65, 71, 94);
+  --orange: rgb(207, 131, 5);
+
+  --chat-border-radius: 20px;
+}
+
+html, body {
+  background-color: var(--dark);
+}
+
+body, button, input, select, textarea {
+  font-family: 'Quicksand', sans-serif;
+}

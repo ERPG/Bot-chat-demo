@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Should render component without errors 1`] = `
+<div>
+  <button
+    class="button landbot-input-send"
+    data-landbot="send-button"
+  >
+    button text
+  </button>
+</div>
+`;

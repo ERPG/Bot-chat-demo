@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Should render component without errors 1`] = `
+<div>
+  <input
+    class="landbot-input"
+    data-landbot="chat-input"
+    placeholder="placeholder"
+    type="text"
+    value=""
+  />
+</div>
+`;
