@@ -1,32 +1,38 @@
-# Landbot Frontend Challenge
+![React](http://assets.stickpng.com/thumbs/584830f5cef1014c0b5e4aa1.png)
 
-## Description
-The challenge consists of two parts:
+# Getting Started with Bot-demo
 
-**Functional Javascript**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A frontend developer must have a minimum functional programming knowledge to work with graphs. Landbot bot builder is a tool that allows creating conversational flows through graphs.
+## Available Scripts
 
-The purpose of this challenge is implementing several functions, part of a complete library to handle graphs efficiently.
+In the project directory, you can run:
 
-Tasks:
-- Implement the functions defined in `./src/graph_utils/graph_utils.js`.
-- Execute tests with `npm test` and check that all functions passed.
+### `yarn start`
 
-> Note: Read carefully the [docs](./DOCS.md) 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**React JS**
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-As a web app can grow insanely with new features, we need to make sure our code is clean and scalable, and sometimes we need to refactor big components.
+### `yarn test`
 
-Tasks:
-- Separate the `./src/components/Chat` component into several smaller components (create the folder structure you feel comfortable with).
-- Check everything is working like before the refactor.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-> (Optional) Use storybook with `npm run storybook` to organise your components.
+### `yarn build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Documentation
-> Document your code assuming that the next engineer looking at your code is a serial killer who knows where you live.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Use JSDoc 3 docummentation style. http://usejsdoc.org/
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
